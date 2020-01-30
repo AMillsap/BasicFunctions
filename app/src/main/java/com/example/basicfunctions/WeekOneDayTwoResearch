@@ -1,0 +1,22 @@
+Question 1: A hashmap is non synchronized while a hashtable is. A hashtable doesn't allow for any
+            null key or values while a hashmap can have one.
+
+Question 2: You do this so that both methods act properly on hash-based collections. The collections
+            are organized in a sequence where the same hash code determines where objects go and
+            where to find them.
+
+Question 3: The factory method is about letting the subclasses determine which class to instantiate.
+            It is designed to use new operations, not new classes.
+
+Question 4: Java garbage collection is an automatic collector and destroy of objects not in use or
+            unreachable. You can make a variable unreachable by nullifying the reference variable,
+            re-assigning the reference variable, or if the object is created inside method.
+
+Question 6: A sparse array is an array that has multiple locations in it filled with O or no data.
+
+Question 7: Array is fixed length while ArrayList has a variable length. ArrayLists can't store
+            primitives, only objects while Arrays can store either.
+
+Question 8: Comparable is used to sort the objects with natural ordering while a comparator is used
+            to sort attributes of different objects. Comparable compares itself with the specific
+            object. The comparator compares two different class objects given to it.
